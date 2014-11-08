@@ -1,3 +1,11 @@
 .DS_Store
 node_modules
 .sass-cache
+
+
+dist/
+#some private links data
+src/links/*
+
+#drupal rules about marathon
+drupalrules.txt

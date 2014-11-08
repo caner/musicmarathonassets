@@ -6,11 +6,11 @@ a {
   text-decoration: underline;
 }
 
-.btn-primary {
+.btn {
   text-decoration: none;
   color: #FFF;
-  background-color: $primary-color;
-  border: solid $primary-color;
+  background-color: $grey;
+  border: solid $grey;
   border-width: 10px 20px;
   line-height: 2;
   font-weight: bold;
@@ -19,5 +19,14 @@ a {
   cursor: pointer;
   display: inline-block;
   border-radius: 5px;
-  text-transform: capitalize;
+  text-transform:capitalize;
+}
+
+.btn.btn-primary {
+  background-color: $primary-color;
+  border: solid $primary-color;
+}
+.btn.btn-green {
+  background-color: $green;
+  border: solid $green;
 }

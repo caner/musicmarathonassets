@@ -23,9 +23,13 @@
   }
 
   // Buttons
-  .btn-primary{
+  .btn{
     display: block !important;
     width: 100% !important;
   }
-
+  
+  
+   tr.alert > td {
+       padding: 12px !important;
+   }
 }
