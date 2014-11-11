@@ -1,0 +1,38 @@
+/* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+
+#icerik {
+width:$width;
+    padding: 0;
+    margin: 0 0 $bosluk_icerik_alt 0;
+word-wrap: break-word;
+    }
+
+#icerikvideogaleri {
+width:$width;
+    padding: 0;
+    margin: 0;
+    
+    }
+
+div#videosatir {
+display: inline-block; 
+    width: $kutucukgenislik;
+    height: $kutucukyukseklik;
+    float:left;
+      margin:0 $padding_10px 0 0;
+}
+
+
+div#profilfoto {
+width: $thumbgenislik;
+    height: $thumbyukseklik;
+    
+}
+
+div#baslikdiv {
+padding-top: $padding_10px;
+    text-align: center;
+    width: $thumbgenislik;
+}

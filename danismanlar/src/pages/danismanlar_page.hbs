@@ -1,0 +1,21 @@
+---
+layout: default.hbs
+---
+
+ {{#each danismanbilgileri}}
+        <div id="videosatir">
+            <div id="profilfoto">
+                    <img src="{{ profileimg }}" width="200" height="200" />
+            </div>
+            <div id="baslikdiv">
+                <h3 class="danismanismi">
+                    {{ danismanismi }}
+                </h3>
+                <h4 class="calistigiyer">{{ calistigiyer }}</h4>
+            </div>
+            
+        </div>    
+{{/each}}
+    
+   
+     

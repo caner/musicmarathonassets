@@ -1,0 +1,14 @@
+/* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+
+@media only screen and (max-width: 700px) {
+    #icerikvideogaleri {
+        width: 460px !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #icerikvideogaleri {
+        width: 300px !important;
+    }
+}

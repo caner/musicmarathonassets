@@ -1,0 +1,143 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+/* -------------------------------------
+    GLOBAL
+------------------------------------- */
+/* Let's make sure all tables have defaults */
+/* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+#icerik {
+  width: 700px;
+  padding: 0;
+  margin: 0 0 100px 0;
+  word-wrap: break-word;
+}
+
+#icerikvideogaleri {
+  width: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+div#videosatir {
+  display: inline-block;
+  width: 220px;
+  height: 300px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+div#profilfoto {
+  width: 200px;
+  height: 200px;
+}
+
+div#baslikdiv {
+  padding-top: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+h1,
+h2,
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+h3.danismanismi {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #3399cc;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+h4.calistigiyer {
+  font-family: "Segoe UI", Candara, "DejaVu Sans", "Trebuchet MS", Tahoma, Verdana, sans-serif;
+  font-size: 16px;
+  color: #3399cc;
+  margin-top: 5px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+a.danismanismilink {
+  text-decoration: none;
+  color: #444;
+  outline: 0;
+}
+
+a.danismanismilink:hover {
+  text-decoration: none !important;
+  color: #49D664 !important;
+  outline: 0;
+}
+
+/* -------------------------------------
+    LINKS & BUTTONS
+------------------------------------- */
+/* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+.last {
+  margin-bottom: 0;
+}
+
+.first {
+  margin-top: 0;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.clear {
+  clear: both;
+}
+
+/* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+@media only screen and (max-width: 700px) {
+  #icerikvideogaleri {
+    width: 460px !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #icerikvideogaleri {
+    width: 300px !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
