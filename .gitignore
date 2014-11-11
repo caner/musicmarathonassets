@@ -6,6 +6,8 @@ node_modules
 dist/
 #some private links data
 *.json
+#other private data
+*.yaml
 
 #drupal rules about marathon
 drupalrules.txt
